@@ -7,7 +7,7 @@ on:
   push:
     branches:
         - main
-    paths_ignore:
+    paths-ignore:
         - 'terraform/*'
         - '.github/workflows/*'
 
