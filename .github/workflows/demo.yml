@@ -31,6 +31,7 @@ jobs:
           name: output-files
           path: |
             outputs
+            package.json
   deploy:
     needs: build
     runs-on: ubuntu-latest
