@@ -28,7 +28,7 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-articact@v3
         with:
-          name: dist-files
+          name: output-files
           path: |
             outputs
   deploy:
