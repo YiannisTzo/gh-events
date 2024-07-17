@@ -34,7 +34,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: output-files
-          path: terraform
+          path: dist/assets
   deploy:
     needs: build
     runs-on: ubuntu-latest
